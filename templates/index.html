@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enter your Sentence</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+<h1>Enter your sentence please</h1>
+<form method="post" action="counter.html">
+    <label>
+        <textarea name="text" rows="30" cols="60">
+            
+        </textarea>
+    </label>
+    <br>
+    <input type="submit" value="Submit"/>
+</form>
+
+</body>
+</html>
